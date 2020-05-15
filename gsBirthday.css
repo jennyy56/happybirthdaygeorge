@@ -1,0 +1,179 @@
+body {
+    background-color: #222222;
+
+    font-family: 'Audiowide', cursive;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1371&q=80");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+
+}
+
+.happyBday {
+    background-image: url("https://lh3.googleusercontent.com/bRFosUI9IpjrsAUoTkimCrtVQzoAoyj69XL6pbxQgrFWtmm72P1vkWFRWzqKWZlk_7zJBYGwasbIBuCuCIevfOgdnUappZDRWGru1BfuOXk8dmJaPe8u4aB9VxJ8DS6IGt68U1-g4xXUY69WTR4SOYTZvGBMCxzMKZjOSwpDESjggflPKntvuLTdmNEtMlYg1IQWPKK2tsZLOUcQiqv2RYRrB01VnlDH62GBn54hcuR85LRff4dY8A8wZE2qUHjAB52cS6yHNy2jlNbhicP5Jims2XZPPWRpEW63QpOhl2G5ZpNworSNP7i6aOoC-SLcXS5LwXLd38yxD28VfO8WzrEm1OPMJEIfmgCH-kQb_Jv1J5Yk8M339dRqR0GHtQ67Kh51nFdWKOKsp2hxAtSpTl8EUOwQL-LmqR3wdq7M3Zy1-51q3fjGJcAjDz8wIbaSoC0I0yCUIxVZtYi21Dzm8OeKOqhWS6uCal8qMFhBaikJhPBYSlkb1-1cOEA92hs8SfEuV8IV1GlDDTBIukJJgpLAQAJM8byXGbDOegfSng0X1sgGtMKhzsiyXA5YVb8oUhXepfugAhoRcsVMrlmYKyVs0rCz8PXHokXqu41Wx8382N8bOu6L5sLLQJI-_sLmkd1GFrvx9ZFuIHRTyR_YBrrYPOAAajGgJc_651W7_PdK8nH4igTUhxtLGV6btQ=w750-h537-no?authuser=0");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+
+}
+
+.ageCounter {
+   background-image: url("https://www.hipsthetic.com/wp-content/uploads/2016/03/Aaron-Campbell-Hotel-1024x552.png");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+
+
+}
+
+
+.counterBox {
+    background-image: linear-gradient(to bottom right, purple, mediumpurple);
+    height: 510px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.age {
+    background-color: seashell;
+    height: 150px;
+    width: 140px;
+    margin: auto;
+    border-radius: 9px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.age h1 {
+    padding: 30px;
+    font-size: 60px;
+    color: black;
+}
+
+.leftButton, .rightButton {
+    font-family: 'Audiowide', cursive;
+    border-radius: 9px;
+    color: black;
+    width: 45%;
+    height:20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftButton:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.rightButton:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.buttonSubmit {
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.buttonSubmit:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.car {
+    background-image: url("https://media3.giphy.com/media/D4zbzXKSl9tOE/giphy.gif");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+#secondPageCake {
+    background-image: url("https://media.giphy.com/media/l4FGFMj67pvzE8932/giphy.gif");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: none;
+}
+
+#loveLetter {
+    background-image: url("https://thumbs.gfycat.com/EmbellishedTatteredLadybug-size_restricted.gif");
+    background-size: 500px 100px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #222222;
+    font-size: medium;
+    text-align: center;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.credits {
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    float: right;
+    padding-right: 13px;
+    height: 70px;
+    padding-bottom: 40px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+i {
+    padding-right: 13px;
+    color: white;
+}
+
+i:hover {
+    opacity: 0.7;
+}
+
+iframe {
+    display: none;
+}
